@@ -5,17 +5,11 @@ VisualStudioVersion = 17.1.32210.238
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmployeeLMS", "EmployeeLMS\EmployeeLMS.csproj", "{12AD1747-8DC1-4B69-BFAB-E2C2BACF8D87}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmployeeListLayer", "EmployeeListLayer\EmployeeListLayer.csproj", "{F5743A95-F5B4-481A-9E8C-244B1CE3CC78}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LMS_ServiceLayer", "EmployeeListLayer\LMS_ServiceLayer.csproj", "{F5743A95-F5B4-481A-9E8C-244B1CE3CC78}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeaveTypesLayer", "LeaveTypesLayer\LeaveTypesLayer.csproj", "{D57013F6-00D7-47D7-ADA8-4F4A6672A5A5}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LMS_RepositoryLayer", "LeaveTypesLayer\LMS_RepositoryLayer.csproj", "{D57013F6-00D7-47D7-ADA8-4F4A6672A5A5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApplyPlannedLeaveLayer", "ApplyPlannedLeaveLayer\ApplyPlannedLeaveLayer.csproj", "{CC7166D0-CFE1-432A-83C8-DB6823E41C10}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SearchEmployeeLeaveTakenLayer", "SearchEmployeeLeaveTakenLayer\SearchEmployeeLeaveTakenLayer.csproj", "{6CACCCC4-DF97-4FB5-B11D-0264F2F1D2C6}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CancelPlannedLeaveLayer", "CancelPlannedLeaveLayer\CancelPlannedLeaveLayer.csproj", "{F19D960E-9AA5-4CB1-AA73-1A2C5E61CE96}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeaveBalanceLayer", "LeaveBalanceLayer\LeaveBalanceLayer.csproj", "{45BF3CDA-0A0E-4190-9EAD-07EE1E3B0B9F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LMS_DomainLayer", "LeaveBalanceLayer\LMS_DomainLayer.csproj", "{45BF3CDA-0A0E-4190-9EAD-07EE1E3B0B9F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -35,18 +29,6 @@ Global
 		{D57013F6-00D7-47D7-ADA8-4F4A6672A5A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D57013F6-00D7-47D7-ADA8-4F4A6672A5A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D57013F6-00D7-47D7-ADA8-4F4A6672A5A5}.Release|Any CPU.Build.0 = Release|Any CPU
-		{CC7166D0-CFE1-432A-83C8-DB6823E41C10}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{CC7166D0-CFE1-432A-83C8-DB6823E41C10}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{CC7166D0-CFE1-432A-83C8-DB6823E41C10}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{CC7166D0-CFE1-432A-83C8-DB6823E41C10}.Release|Any CPU.Build.0 = Release|Any CPU
-		{6CACCCC4-DF97-4FB5-B11D-0264F2F1D2C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{6CACCCC4-DF97-4FB5-B11D-0264F2F1D2C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{6CACCCC4-DF97-4FB5-B11D-0264F2F1D2C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{6CACCCC4-DF97-4FB5-B11D-0264F2F1D2C6}.Release|Any CPU.Build.0 = Release|Any CPU
-		{F19D960E-9AA5-4CB1-AA73-1A2C5E61CE96}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{F19D960E-9AA5-4CB1-AA73-1A2C5E61CE96}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{F19D960E-9AA5-4CB1-AA73-1A2C5E61CE96}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{F19D960E-9AA5-4CB1-AA73-1A2C5E61CE96}.Release|Any CPU.Build.0 = Release|Any CPU
 		{45BF3CDA-0A0E-4190-9EAD-07EE1E3B0B9F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{45BF3CDA-0A0E-4190-9EAD-07EE1E3B0B9F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{45BF3CDA-0A0E-4190-9EAD-07EE1E3B0B9F}.Release|Any CPU.ActiveCfg = Release|Any CPU
