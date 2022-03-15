@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LMS_RepositoryLayer", "Leav
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LMS_DomainLayer", "LeaveBalanceLayer\LMS_DomainLayer.csproj", "{45BF3CDA-0A0E-4190-9EAD-07EE1E3B0B9F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "demo", "demo\demo.csproj", "{8A788105-580C-4961-82F9-1E8294E58DD9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{45BF3CDA-0A0E-4190-9EAD-07EE1E3B0B9F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{45BF3CDA-0A0E-4190-9EAD-07EE1E3B0B9F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{45BF3CDA-0A0E-4190-9EAD-07EE1E3B0B9F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8A788105-580C-4961-82F9-1E8294E58DD9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A788105-580C-4961-82F9-1E8294E58DD9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A788105-580C-4961-82F9-1E8294E58DD9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8A788105-580C-4961-82F9-1E8294E58DD9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
